@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9E5BABBC-3B0E-4BA7-8725-0533A2B25E31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{04E07350-C793-432A-9289-39D1417D71CA}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1239ECE3-26B5-4BC9-83D6-1616960657DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BEBEF8F2-3168-4A56-96F3-A87AFDCED1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "banking-report.Application", "src\Application\banking-report.Application\banking-report.Application.csproj", "{751FCCCE-3D63-5502-0720-F610FFC1ABA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "banking-report.WebApi", "src\WebApi\banking-report.WebApi\banking-report.WebApi.csproj", "{F93D01CC-783C-0B09-8621-CFA2A04C927B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{751FCCCE-3D63-5502-0720-F610FFC1ABA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751FCCCE-3D63-5502-0720-F610FFC1ABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751FCCCE-3D63-5502-0720-F610FFC1ABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751FCCCE-3D63-5502-0720-F610FFC1ABA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93D01CC-783C-0B09-8621-CFA2A04C927B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93D01CC-783C-0B09-8621-CFA2A04C927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93D01CC-783C-0B09-8621-CFA2A04C927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93D01CC-783C-0B09-8621-CFA2A04C927B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {1239ECE3-26B5-4BC9-83D6-1616960657DB}
+		{9E5BABBC-3B0E-4BA7-8725-0533A2B25E31} = {1239ECE3-26B5-4BC9-83D6-1616960657DB}
+		{751FCCCE-3D63-5502-0720-F610FFC1ABA3} = {9E5BABBC-3B0E-4BA7-8725-0533A2B25E31}
+		{F93D01CC-783C-0B09-8621-CFA2A04C927B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44408A24-2F46-45E9-A39A-2B422524B806}
+	EndGlobalSection
+EndGlobal

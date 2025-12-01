@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "k7D/0erOsAEXNxUWrceiopL3Mqk86wVqCD9jAU8IQhg=",
+  "Source": "banking-report.WebApi",
+  "BasePath": "_content/banking-report.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

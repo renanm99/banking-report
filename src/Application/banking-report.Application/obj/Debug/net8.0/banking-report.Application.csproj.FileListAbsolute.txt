@@ -1,0 +1,14 @@
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.exe
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.deps.json
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.runtimeconfig.json
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.dll
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.pdb
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.AssemblyInfoInputs.cache
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.AssemblyInfo.cs
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.csproj.CoreCompileInputs.cache
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.dll
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\refint\banking-report.Application.dll
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.pdb
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.genruntimeconfig.cache
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\ref\banking-report.Application.dll
