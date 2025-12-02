@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>banking_report.Application</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -10,7 +10,25 @@
 
   <ItemGroup>
     <Folder Include="Application\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.DocumentIntelligence" Version="1.0.0" />
+    <PackageReference Include="Azure.Core" Version="1.50.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+    <PackageReference Include="PdfPig" Version="0.1.13-alpha-20251124-ce563" />
+    <PackageReference Include="PDFsharp" Version="6.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Infrastructure/Data/IndividualReportData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure/Data/BankReportData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Infrastructure/Data/ItemCardExpensesData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

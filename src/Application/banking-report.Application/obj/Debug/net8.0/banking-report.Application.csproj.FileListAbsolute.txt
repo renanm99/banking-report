@@ -1,6 +1,4 @@
-C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.exe
 C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.deps.json
-C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.runtimeconfig.json
 C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.dll
 C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\banking-report.Application.pdb
 C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,5 +8,9 @@ C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.
 C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.dll
 C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\refint\banking-report.Application.dll
 C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.pdb
-C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.genruntimeconfig.cache
 C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\ref\banking-report.Application.dll
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.sourcelink.json
+C:\dev\banking-report\src\Application\banking-report.Application\obj\Debug\net8.0\banking-report.Application.csproj.AssemblyReference.cache
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\Infrastructure\Data\IndividualReportData.json
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\Infrastructure\Data\BankReportData.json
+C:\dev\banking-report\src\Application\banking-report.Application\bin\Debug\net8.0\Infrastructure\Data\ItemCardExpensesData.json

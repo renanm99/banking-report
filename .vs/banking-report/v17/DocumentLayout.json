@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\dev\\banking-report\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\banking-report.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\banking-report.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\services\\pdfextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\services\\pdfextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\infrastructure\\data\\bankreportdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\infrastructure\\data\\bankreportdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|c:\\dev\\banking-report\\src\\webapi\\banking-report.webapi\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|solutionrelative:src\\webapi\\banking-report.webapi\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\domain\\models\\individualreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\domain\\models\\individualreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\services\\bankreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\services\\bankreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|c:\\dev\\banking-report\\src\\webapi\\banking-report.webapi\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|solutionrelative:src\\webapi\\banking-report.webapi\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|c:\\dev\\banking-report\\src\\webapi\\banking-report.webapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|solutionrelative:src\\webapi\\banking-report.webapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\infrastructure\\data\\itemcardexpensesdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\infrastructure\\data\\itemcardexpensesdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|c:\\dev\\banking-report\\src\\application\\banking-report.application\\infrastructure\\data\\individualreportdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{751FCCCE-3D63-5502-0720-F610FFC1ABA3}|src\\Application\\banking-report.Application\\banking-report.Application.csproj|solutionrelative:src\\application\\banking-report.application\\infrastructure\\data\\individualreportdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|c:\\dev\\banking-report\\src\\webapi\\banking-report.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F93D01CC-783C-0B09-8621-CFA2A04C927B}|src\\WebApi\\banking-report.WebApi\\banking-report.WebApi.csproj|solutionrelative:src\\webapi\\banking-report.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\banking-report\\Application\\banking-report.Application\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\banking-report.Application\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04E07350-C793-432A-9289-39D1417D71CA}|SolutionItems{04E07350-C793-432A-9289-39D1417D71CA}|C:\\dev\\banking-report\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{04E07350-C793-432A-9289-39D1417D71CA}|SolutionItems{04E07350-C793-432A-9289-39D1417D71CA}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 21,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "banking-report.Application",
-              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\banking-report.Application.csproj",
-              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\banking-report.Application.csproj",
-              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\banking-report.Application.csproj",
-              "RelativeToolTip": "src\\Application\\banking-report.Application\\banking-report.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-01T18:26:27.578Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:29:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
@@ -107,7 +118,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemCardExpensesData.json",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Infrastructure\\Data\\ItemCardExpensesData.json",
+              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\Infrastructure\\Data\\ItemCardExpensesData.json",
+              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Infrastructure\\Data\\ItemCardExpensesData.json",
+              "RelativeToolTip": "src\\Application\\banking-report.Application\\Infrastructure\\Data\\ItemCardExpensesData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T21:38:56.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IndividualReportData.json",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Infrastructure\\Data\\IndividualReportData.json",
+              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\Infrastructure\\Data\\IndividualReportData.json",
+              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Infrastructure\\Data\\IndividualReportData.json",
+              "RelativeToolTip": "src\\Application\\banking-report.Application\\Infrastructure\\Data\\IndividualReportData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T21:38:55.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndividualReport.cs",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Domain\\Models\\IndividualReport.cs",
+              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\Domain\\Models\\IndividualReport.cs",
+              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Domain\\Models\\IndividualReport.cs",
+              "RelativeToolTip": "src\\Application\\banking-report.Application\\Domain\\Models\\IndividualReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:38:46.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankReportService.cs",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Services\\BankReportService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\Services\\BankReportService.cs",
+              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Services\\BankReportService.cs",
+              "RelativeToolTip": "src\\Application\\banking-report.Application\\Services\\BankReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:38:30.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PDFController.cs",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Controllers\\PDFController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\banking-report.WebApi\\Controllers\\PDFController.cs",
+              "ToolTip": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Controllers\\PDFController.cs",
+              "RelativeToolTip": "src\\WebApi\\banking-report.WebApi\\Controllers\\PDFController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:24:21.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PDFExtractorService.cs",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Services\\PDFExtractorService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\Services\\PDFExtractorService.cs",
+              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Services\\PDFExtractorService.cs",
+              "RelativeToolTip": "src\\Application\\banking-report.Application\\Services\\PDFExtractorService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:22:03.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BankReportData.json",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Infrastructure\\Data\\BankReportData.json",
+              "RelativeDocumentMoniker": "src\\Application\\banking-report.Application\\Infrastructure\\Data\\BankReportData.json",
+              "ToolTip": "C:\\dev\\banking-report\\src\\Application\\banking-report.Application\\Infrastructure\\Data\\BankReportData.json",
+              "RelativeToolTip": "src\\Application\\banking-report.Application\\Infrastructure\\Data\\BankReportData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T21:39:01.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\banking-report.WebApi\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "src\\WebApi\\banking-report.WebApi\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:39:50.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\banking-report.WebApi\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\WebApi\\banking-report.WebApi\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:40:01.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\banking-report\\src\\WebApi\\banking-report.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\banking-report.WebApi\\Program.cs",
@@ -115,31 +243,8 @@
               "RelativeToolTip": "src\\WebApi\\banking-report.WebApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T18:25:18.392Z",
+              "WhenOpened": "2025-12-01T21:40:31.984Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\dev\\banking-report\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\dev\\banking-report\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-01T18:20:38.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\banking-report\\Application\\banking-report.Application\\Program.cs",
-              "RelativeDocumentMoniker": "Application\\banking-report.Application\\Program.cs",
-              "ToolTip": "C:\\dev\\banking-report\\Application\\banking-report.Application\\Program.cs",
-              "RelativeToolTip": "Application\\banking-report.Application\\Program.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T18:20:07.714Z"
             }
           ]
         }

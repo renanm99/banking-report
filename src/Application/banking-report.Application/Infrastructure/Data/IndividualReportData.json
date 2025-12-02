@@ -1,0 +1,42 @@
+[
+  {
+    "IndividualReportId": 105,
+    "ReportId": "03399.49281 36982.322301.02945 701023 9 00000000000000",
+    "PersonId": 1,
+    "PersonName": "Renan O Machado",
+    "CardLastDigits": 2580,
+    "CardExpenseAmount": 1566.07
+  },
+  {
+    "IndividualReportId": 106,
+    "ReportId": "03399.49281 36982.322301.02945 701023 9 00000000000000",
+    "PersonId": 2,
+    "PersonName": "Hannah C Moura",
+    "CardLastDigits": 5951,
+    "CardExpenseAmount": 1722.91
+  },
+  {
+    "IndividualReportId": 107,
+    "ReportId": "03399.49281 36982.322301.02945 701023 9 00000000000000",
+    "PersonId": 2,
+    "PersonName": "Hannah C Moura",
+    "CardLastDigits": 8233,
+    "CardExpenseAmount": 1156.79
+  },
+  {
+    "IndividualReportId": 108,
+    "ReportId": "03399.49281 36982.322301.02945 701023 9 00000000000000",
+    "PersonId": 2,
+    "PersonName": "Hannah C Moura",
+    "CardLastDigits": 4640,
+    "CardExpenseAmount": 470.70
+  },
+  {
+    "IndividualReportId": 109,
+    "ReportId": "03399.49281 36982.322301.02945 701023 9 00000000000000",
+    "PersonId": 1,
+    "PersonName": "Renan O Machado",
+    "CardLastDigits": 7099,
+    "CardExpenseAmount": 3729.56
+  }
+]

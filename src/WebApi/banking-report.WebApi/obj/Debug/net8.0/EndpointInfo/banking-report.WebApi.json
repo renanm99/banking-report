@@ -5,38 +5,83 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
+    "/api/PDF": {
+      "post": {
+        "tags": [
+          "PDF"
+        ],
+        "operationId": "PostPDF",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Report": {
+      "post": {
+        "tags": [
+          "Report"
+        ],
+        "operationId": "PostBankReport",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "get": {
         "tags": [
-          "WeatherForecast"
+          "Report"
         ],
-        "operationId": "GetWeatherForecast",
+        "operationId": "GetBankReport",
+        "parameters": [
+          {
+            "name": "personId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  "$ref": "#/components/schemas/BankReport"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  "$ref": "#/components/schemas/BankReport"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  "$ref": "#/components/schemas/BankReport"
                 }
               }
             }
@@ -47,23 +92,109 @@
   },
   "components": {
     "schemas": {
-      "WeatherForecast": {
+      "BankReport": {
         "type": "object",
         "properties": {
-          "date": {
+          "reportId": {
             "type": "string",
-            "format": "date"
+            "nullable": true
           },
-          "temperatureC": {
+          "entitledPerson": {
+            "type": "string",
+            "nullable": true
+          },
+          "reportDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dueDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "individualReports": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IndividualReport"
+            },
+            "nullable": true
+          },
+          "individualAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "totalExpenseAmount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IndividualReport": {
+        "type": "object",
+        "properties": {
+          "individualReportId": {
             "type": "integer",
             "format": "int32"
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "reportId": {
+            "type": "string",
+            "nullable": true
           },
-          "summary": {
+          "personId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "personName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardLastDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cardExpenses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ItemCardExpenses"
+            },
+            "nullable": true
+          },
+          "cardExpenseAmount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItemCardExpenses": {
+        "type": "object",
+        "properties": {
+          "expenseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "individualReportId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "personId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "expenseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "installment": {
             "type": "string",
             "nullable": true
           }

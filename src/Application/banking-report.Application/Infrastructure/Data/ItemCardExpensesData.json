@@ -1,0 +1,92 @@
+[
+  {
+    "ExpenseId": 401,
+    "IndividualReportId": 105,
+    "PersonId": 1,
+    "Description": "Bookstore",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 120.00,
+    "Installment": null
+  },
+  {
+    "ExpenseId": 402,
+    "IndividualReportId": 105,
+    "PersonId": 1,
+    "Description": "Coffee Shop",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 35.50,
+    "Installment": "1/2"
+  },
+  {
+    "ExpenseId": 403,
+    "IndividualReportId": 106,
+    "PersonId": 1,
+    "Description": "Bookstore",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 120.00,
+    "Installment": null
+  },
+  {
+    "ExpenseId": 404,
+    "IndividualReportId": 106,
+    "PersonId": 1,
+    "Description": "Coffee Shop",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 35.50,
+    "Installment": "1/2"
+  },
+  {
+    "ExpenseId": 405,
+    "IndividualReportId": 107,
+    "PersonId": 1,
+    "Description": "Bookstore",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 120.00,
+    "Installment": null
+  },
+  {
+    "ExpenseId": 406,
+    "IndividualReportId": 107,
+    "PersonId": 1,
+    "Description": "Coffee Shop",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 35.50,
+    "Installment": "1/2"
+  },
+  {
+    "ExpenseId": 407,
+    "IndividualReportId": 108,
+    "PersonId": 1,
+    "Description": "Bookstore",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 120.00,
+    "Installment": null
+  },
+  {
+    "ExpenseId": 408,
+    "IndividualReportId": 108,
+    "PersonId": 1,
+    "Description": "Coffee Shop",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 35.50,
+    "Installment": "1/2"
+  },
+  {
+    "ExpenseId": 409,
+    "IndividualReportId": 109,
+    "PersonId": 1,
+    "Description": "Bookstore",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 120.00,
+    "Installment": null
+  },
+  {
+    "ExpenseId": 410,
+    "IndividualReportId": 109,
+    "PersonId": 1,
+    "Description": "Coffee Shop",
+    "Date": "2025-12-01T00:00:00",
+    "Amount": 35.50,
+    "Installment": "1/2"
+  }
+]

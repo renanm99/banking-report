@@ -7,24 +7,35 @@ WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
-
 # This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["banking-report.csproj", "."]
-RUN dotnet restore "./banking-report.csproj"
+
+# Copy solution file
+COPY ["banking-report.sln", "./"]
+
+# Copy project files
+COPY ["src/WebApi/banking-report.WebApi/banking-report.WebApi.csproj", "src/WebApi/banking-report.WebApi/"]
+COPY ["src/Application/banking-report.Application/banking-report.Application.csproj", "src/Application/banking-report.Application/"]
+
+# Restore dependencies
+RUN dotnet restore "src/WebApi/banking-report.WebApi/banking-report.WebApi.csproj"
+
+# Copy all source files
 COPY . .
-WORKDIR "/src/."
-RUN dotnet build "./banking-report.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# Build the project
+WORKDIR "/src/src/WebApi/banking-report.WebApi"
+RUN dotnet build "banking-report.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./banking-report.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "banking-report.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "banking-report.dll"]
+ENTRYPOINT ["dotnet", "banking-report.WebApi.dll"]

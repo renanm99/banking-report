@@ -1,0 +1,30 @@
+[
+  {
+    "ReportId": 1,
+    "EntitledPerson": "Alice Smith",
+    "ReportDate": "2025-12-01T00:00:00",
+    "DueDate": "2025-12-31T00:00:00",
+    "TotalExpenseAmount": 1200.50
+  },
+  {
+    "ReportId": 2,
+    "EntitledPerson": "Bob Johnson",
+    "ReportDate": "2025-11-01T00:00:00",
+    "DueDate": "2025-11-30T00:00:00",
+    "TotalExpenseAmount": 800.00
+  },
+  {
+    "ReportId": 3,
+    "EntitledPerson": "Alice Smith",
+    "ReportDate": "2026-01-01T00:00:00",
+    "DueDate": "2026-02-01T00:00:00",
+    "TotalExpenseAmount": 1200.50
+  },
+  {
+    "ReportId": "03399.49281 36982.322301.02945 701023 9 00000000000000",
+    "EntitledPerson": "Renan O Machado",
+    "ReportDate": "2025-11-24T00:00:00",
+    "DueDate": "2025-11-30T00:00:00",
+    "TotalExpenseAmount": 8643.74
+  }
+]
